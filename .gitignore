@@ -1,0 +1,11 @@
+build
+bin
+*swp
+*~
+*.o
+*.a
+*.orig
+*.class
+.project
+.metadata
+

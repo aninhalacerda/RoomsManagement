@@ -8,27 +8,27 @@ public class FacadeEasyAccept {
 
     public void adicionarSala(String id, int capacidade, String finalidade,
             String tipo) {
-
+        
     }
 
     public void adicionarSala(String id, int capacidade, String finalidade,
             String tipo, String apelido) {
-
+        
     }
 
     public void adicionarSala(String id, int capacidade, String finalidade,
             String tipo, String apelido, boolean aberto) {
-
+        
     }
 
     public Object getAtributoSala(String idSala, String atributo) {
+        
         return null;
-
     }
 
     public void adicionarEvento(String id, String nome, String inicio,
             String fim, String area, String contato, int repeticoes) {
-
+        
     }
 
     public Object getAtributoEvento(String idEvento, String atributo) {

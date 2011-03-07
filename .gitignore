@@ -8,4 +8,6 @@ bin
 *.class
 .project
 .metadata
+.ant-targets-build.xml
+.classpath
 

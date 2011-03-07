@@ -12,7 +12,6 @@ public abstract class Sala {
      */
     public abstract String getId();
 
-
     /**
      * Retorna a capacidade da sala.
      *

@@ -22,7 +22,7 @@ public class FabricaDeSalaTest {
      * @throws java.lang.Exception
      */
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         this.sa01 = FabricaDeSala.getSala("SA-01", 30, "Sala de Aula", "Normal");
         this.sa02 = FabricaDeSala.getSala("SA-02", 10, "Sala de Aula", "Normal", "salinha");
         this.sa04 = FabricaDeSala.getSala("SA-04", 15, "Sala de Aula", "Inteligente");

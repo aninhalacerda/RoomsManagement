@@ -49,6 +49,13 @@ public class Laboratorio extends Sala implements Alocavel {
     }
 
     @Override
+    public int getCapacidade() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+
+    @Override
     public String getApelido() {
         // TODO Auto-generated method stub
         return null;

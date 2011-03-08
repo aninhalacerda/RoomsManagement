@@ -1,4 +1,4 @@
-/*   Agendavel.java
+/*   TipoDeSalaDeAula.java
  *
  *   Copyright 2011 Tiago Almeida Reul.
  *   All rights reserved.
@@ -26,9 +26,30 @@
 package modelo;
 
 /**
- * Representa um evento que pode ser agendado.
+ * Representa um tipo de sala de aula.
  */
-public interface Agendavel {
+enum TipoDeSalaDeAula {
+    NORMAL("Normal"),
+    INTELIGENTE("Inteligente"),
+    VIDEOCONFERENCIA("Videoconferencia");
 
+    /**
+     * Instancia uma nova ciencia com o nome dado.
+     */
+    private TipoDeSalaDeAula(final String nome) {
+        this.nome = nome;
+    }
+
+    /*
+     * (non-Javadoc)
+     *
+     * @see java.lang.Enum#toString()
+     */
+    @Override
+    public String toString() {
+        return nome;
+    }
+
+    private final String nome;
 }
 

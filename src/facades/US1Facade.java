@@ -1,6 +1,9 @@
 package facades;
 
 public class US1Facade {
+	// deve haver um atributo privado que é a nossa classe que implementa as
+	// funcoes abaixo e esses metodos farao apenas o redirecionamento para esta
+	// classe
 
 	public void zerarSistema() {
 
